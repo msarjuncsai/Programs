@@ -1,0 +1,9 @@
+a=int(input("Enter the number: "))
+1=0
+c=0
+n1=a
+while(a>0):
+  1=a%10
+  c=c+1
+  a=a//10
+print("sum:",c)
