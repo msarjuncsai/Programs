@@ -1,0 +1,9 @@
+def fibonacci(n):
+    a=[0,1]
+    i=2
+    while i<n:
+        next=a[i-2]+a[i-1]
+        a.append(next)
+        i+=1
+    print(a)
+fibonacci(4)
